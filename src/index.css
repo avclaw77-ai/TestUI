@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Manrope", sans-serif;
+  --font-label: "Manrope", sans-serif;
+
+  --color-primary: #705654;
+  --color-primary-container: #8a6e6c;
+  --color-primary-fixed: #fedad8;
+  --color-surface: #fcf9f3;
+  --color-surface-container: #f0eee8;
+  --color-surface-container-low: #f6f3ed;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #4f4443;
+  --color-outline-variant: #d3c3c1;
+
+  --radius-xl: 1.5rem;
+}
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+  body {
+    @apply bg-surface text-on-surface font-body antialiased;
+  }
+}
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-outline-variant/15 shadow-[0_32px_64px_-12px_rgba(28,28,24,0.08)];
+  }
+  
+  .hero-glass {
+    @apply bg-white/40 backdrop-blur-md border border-outline-variant/15 shadow-[0_8px_32px_0_rgba(28,28,24,0.06)];
+  }
+}
