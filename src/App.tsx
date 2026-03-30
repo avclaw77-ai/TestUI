@@ -186,7 +186,7 @@ const ResearchDomains = () => (
         <ResearchDomainCard 
           id="Field 01" 
           title="Sovereign AI" 
-          description="Infrastructure and foundational models developed specifically for national security and data residency."
+          description="Infrastructure and foundational models developed for national security and data residency."
           className="md:col-span-3"
         />
         <ResearchDomainCard 
@@ -212,6 +212,12 @@ const ResearchDomains = () => (
           title="Applied Research" 
           description="Direct application of AI in resource management and cold-climate resilience."
           className="md:col-span-2"
+        />
+        <ResearchDomainCard 
+          id="Field 06" 
+          title="Accessibility" 
+          description="Democratizing AI for seniors, persons with disabilities, and rural communities from coast to coast to coast."
+          className="md:col-span-6"
         />
       </div>
     </div>
@@ -302,48 +308,48 @@ const Mission = () => (
 
     <div className="divide-y divide-outline-variant/10">
       <MissionSection 
-        title="Arctic Sovereignty"
-        description="The North is not a frontier, it is our foundation. We are building intelligence that respects the unique geopolitical and environmental realities of the High Arctic."
-        quote="The North is not a frontier, it is our foundation."
-        author="Arctic Research Lead"
-        image="https://picsum.photos/seed/arctic/1200/800"
+        title="Sovereign AI"
+        description="Nations around the world are racing to build AI systems that reflect their values, protect their data, and serve their citizens. Canada — despite being the birthplace of modern deep learning — risks falling behind."
+        quote="Canada must lead, not just follow, in the development of frontier intelligence."
+        author="Sovereignty Lead"
+        image="https://picsum.photos/seed/sovereign-ai/1200/800"
       />
       <MissionSection 
-        title="Boreal Intelligence"
-        description="Our forests are massive carbon sinks and complex ecosystems. We develop models that translate biological signals into actionable environmental policy."
-        quote="The forest breathes data; we are simply learning to listen."
-        author="Environmental Scientist"
-        image="https://picsum.photos/seed/forest/1200/800"
+        title="Linguistic Tuning"
+        description="Most AI language models are trained on data that skews heavily toward American English and European French. This means Canadians regularly encounter AI that misunderstands their context, gets idioms wrong, and defaults to cultural references that do not fit."
+        quote="The difference between an AI that feels natural and one that feels foreign."
+        author="Linguistics Team"
+        image="https://picsum.photos/seed/urban-canada/1200/800"
         reverse
       />
       <MissionSection 
-        title="Prairie Innovation"
-        description="From the vast grain fields to the tech hubs of the plains, we are optimizing the backbone of Canada's resource economy through precision AI."
-        quote="Vastness requires a specific kind of focus."
-        author="Agricultural Tech Fellow"
-        image="https://picsum.photos/seed/prairie/1200/800"
+        title="Indigenous Communities"
+        description="Canada is home to more than 70 distinct Indigenous languages across First Nations, Métis, and Inuit communities. Many of these languages are endangered — some spoken by fewer than 500 people."
+        quote="This is not optional — it is an ethical and legal requirement reflecting Canada's commitment to reconciliation."
+        author="Indigenous Relations"
+        image="https://picsum.photos/seed/canadian-lake/1200/800"
       />
       <MissionSection 
-        title="Coastal Resilience"
-        description="Protecting our three coasts requires a deep understanding of maritime data. Our models predict oceanic shifts to safeguard coastal communities."
-        quote="The tide brings more than water; it brings the pulse of the planet."
-        author="Maritime Data Analyst"
-        image="https://picsum.photos/seed/ocean/1200/800"
+        title="Society & Culture"
+        description="AI is not just a technology — it is a force that is actively reshaping Canadian society. From how news is written and consumed, to how hiring decisions are made, to how government services are delivered, AI is already woven into the fabric of daily life."
+        quote="AI strengthens rather than erodes Canadian values of fairness, diversity, and inclusion."
+        author="Society Research"
+        image="https://picsum.photos/seed/canadian-city/1200/800"
         reverse
       />
       <MissionSection 
-        title="Linguistic Duality"
-        description="Canada's strength lies in its voices. We are pioneering models that treat French and English not as separate silos, but as a unified cultural heritage."
-        quote="Language is the architecture of thought."
-        author="Sociolinguistics Professor"
-        image="https://picsum.photos/seed/city/1200/800"
+        title="Applied Research"
+        description="Canada has world-class AI researchers, but too often their work stays in academic journals. The gap between AI research and real-world deployment is one of Canada's biggest missed opportunities."
+        quote="Research is only valuable if it leads to better outcomes for Canadians."
+        author="Applied Research"
+        image="https://picsum.photos/seed/canadian-forest/1200/800"
       />
       <MissionSection 
-        title="Indigenous Wisdom"
-        description="We partner with First Nations, Inuit, and Métis communities to ensure that AI serves as a tool for language revitalization and traditional knowledge preservation."
-        quote="Traditional knowledge is the original frontier of intelligence."
-        author="Indigenous Relations Director"
-        image="https://picsum.photos/seed/lake/1200/800"
+        title="Accessibility"
+        description="Canada has one of the fastest-aging populations in the G7. Nearly 19% of Canadians are seniors, and that number is growing. AI should work for everyone — including seniors, people with disabilities, and those encountering technology for the first time."
+        quote="Accessibility means designing AI that serves everyone, not just the tech-savvy."
+        author="Accessibility Team"
+        image="https://picsum.photos/seed/canadian-prairie/1200/800"
         reverse
       />
     </div>
